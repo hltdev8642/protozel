@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.protoeditor" version="0.1.0">
+  <name>Protoeditor</name>
+  <description>
+    Example Tabris.js App
+  </description>
+  <author email="hltdev8642@gmail.com">
+    hltdev8642
+  </author>
+  <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
+</widget>
