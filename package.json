@@ -1,16 +1,27 @@
 {
-  "name": "protoeditor",
-  "version": "0.1.0",
-  "main": "src/app.js",
-  "private": true,
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
   "scripts": {
-    "test": "eslint .",
-    "start": "tabris serve"
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^4.0.1"
   },
   "dependencies": {
-    "tabris": "^2.6.2"
-  },
-  "devDependencies": {
-    "eslint": "^5.12.0"
+    "codemirror": "^5.42.2",
+    "coditor": "^1.1.0",
+    "xel": "0.0.192"
   }
 }
